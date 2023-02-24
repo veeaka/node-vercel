@@ -6,6 +6,7 @@
   "author": "veeaka <bluearmy993@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "razorpay": "^2.8.6"
   }
 }
