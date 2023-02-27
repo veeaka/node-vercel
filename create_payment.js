@@ -15,6 +15,9 @@ PORT = 4000;
 app.listen (PORT, () => {
   console.log (`API listening on PORT ${PORT} `);
 });
+app.use(cors({
+  origin: '*'
+}));
 app.post ('/api/payments', async (req, res) => {
   console.log(req)
   const amount = req.body.amount;

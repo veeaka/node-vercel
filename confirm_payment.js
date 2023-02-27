@@ -16,6 +16,9 @@ app.use (bodyParser.json ());
 app.listen (PORT, () => {
   console.log (`API listening on PORT ${PORT} `);
 });
+app.use(cors({
+  origin: '*'
+}));
 app.post ('/api/orders/:id/confirm', async (req, res) => {
   const orderId = req.params.id;
 

@@ -6,7 +6,9 @@
   "author": "veeaka <bluearmy993@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "nodemon": "^2.0.20",
     "razorpay": "^2.8.6"
   }
 }
